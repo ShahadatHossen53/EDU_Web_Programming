@@ -23,7 +23,4 @@ function draw() {
   else if (optn == "polar_NRZ_I") {
     polar_NRZ_I();
   }
-  else if (optn == "polar_RZ") {
-    polar_RZ();
-  }
 }

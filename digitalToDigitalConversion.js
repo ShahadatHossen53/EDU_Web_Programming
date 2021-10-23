@@ -11,8 +11,8 @@ function negetiveFull(x, y) {
 function show_graph(x, y) {
     strokeWeight(1);
     line(x, y, x + width, y);
-    //line(x, y + 40, x, y - 40);
-    for (i = -1; i * gap < width; i = i + 2) {
+
+    for (i = 1; i * gap < width; i = i + 2) {
         for (j = -10; j < 10; j++) {
             line((i * gap), y + (5 * j), (i * gap), y + (j * 5) + 2);
         }
