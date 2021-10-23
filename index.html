@@ -1,23 +1,29 @@
-<!DOCTYPE html><html lang="en"><head>
-    <script src="p5.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
 
-  </head>
-  <body>
+<head>
+  <script src="p5.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
 
-    <input type="text" id="b_number" value="110101">
-    <button  onclick="get_number()">Change Number</button>
-    <br>
-    <br>
-    <hr>
-    <button onclick="select_option('unipolar_NRZ', 'Unipolar NRZ')">Unipolar NRZ</button>
-    <button onclick="select_option('polar_NRZ_L', 'Polar NRZ-L')">Polar NRZ-L</button>
-    <button onclick="select_option('polar_NRZ_I', 'Polar NRZ-I')">Polar NRZ-I</button>
-    <br>
+</head>
 
-    <script src="sketch.js"></script>
-    <script src="digitalToDigitalConversion.js"></script>
-  
+<body>
 
-</body></html>
+  <input type="text" id="b_number" value="110101">
+  <button onclick="get_number()">Change Number</button>
+  <br>
+  <br>
+  <hr>
+  <button onclick="select_option('unipolar_NRZ', 'Unipolar NRZ')">Unipolar NRZ</button>
+  <button onclick="select_option('polar_NRZ_L', 'Polar NRZ-L')">Polar NRZ-L</button>
+  <button onclick="select_option('polar_NRZ_I', 'Polar NRZ-I')">Polar NRZ-I</button>
+  <br>
+
+  <script src="sketch.js"></script>
+  <script src="digitalToDigitalConversion.js"></script>
+
+
+</body>
+
+</html>
