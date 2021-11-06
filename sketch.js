@@ -23,4 +23,13 @@ function draw() {
   else if (optn == "polar_NRZ_I") {
     polar_NRZ_I();
   }
+  else if (optn == "manchester") {
+    manchester();
+  }
+  else if (optn == "differential_manchester") {
+    differential_manchester();
+  }
+  else if (optn == "AMI") {
+    AMI();
+  }
 }
